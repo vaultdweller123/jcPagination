@@ -57,6 +57,10 @@ html content 3
 </div>
 <body>
 </html>
+
+[ADVANCE]
+for advance configuration go to the wiki page
+https://github.com/vaultdweller123/jcPagination/wiki/Configuration
 		
 
 
