@@ -23,16 +23,10 @@ pagination links:
 	
 function call:
 jcPagination({
-	'container':'mydiv', // items
-	'page':3, // items per page
-	'pagination':'pagination', // the section where to display the pagination links
-	'id':'pagenav', 
-	'pageNavWidth':80,					
-	'prev':'jprev',
-	'next':'jnext',
-	'spup':4000,
-	'spdown':4000
-});
+		'item':'mydiv',
+		'navigation':'pagination',
+		'perPage':3
+	});
 			
 [EXAMPLE]
 <html>
@@ -40,6 +34,15 @@ jcPagination({
 <title>jcPagination</title>
 <script type="text/javascript" src="/javascript/jquery/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/javascript/jcpagination/jcPagination.js"></script>
+<script>
+jQuery(document).ready(function(){
+	jcPagination({
+		'item':'mydiv',
+		'navigation':'pagination',
+		'perPage':3
+	});
+});
+</script>
 </head>
 <body>
 <h1>jcPagination</h1>
