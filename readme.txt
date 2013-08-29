@@ -60,7 +60,7 @@ html content 3
 </html>
 
 [ADVANCE]
-for advance configuration go to the wiki page
+for advance configuration and tweaking go to the wiki page
 https://github.com/vaultdweller123/jcPagination/wiki/Configuration
 		
 
