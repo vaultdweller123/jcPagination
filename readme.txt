@@ -3,6 +3,7 @@ a simple javascript pagination using jquery
 	
 [HOW-TO]
 include external javascript files:
+jcPagination is powered by jquery so we need to load jquery first before we can use it
 <script type="text/javascript" src="/javascript/jquery/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/javascript/jcpagination/jcPagination.js"></script>
 
