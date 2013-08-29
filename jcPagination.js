@@ -3,8 +3,9 @@ var jcPagination = function(option) {
 		container = option.container;
 		page = option.page;
 		pagination = option.pagination;
-					
-			
+		
+		// hides all item on 1st load		
+		jQuery("."+container+"").hide();	
 		// show 1st 10
 		var i;
 		for(i=0;i<page;i++){
